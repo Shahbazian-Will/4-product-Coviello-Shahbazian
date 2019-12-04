@@ -1,0 +1,27 @@
+.topnav ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 1000;
+    background-color: #009cf8;
+}
+
+.topnav li {
+    float: left;
+}
+
+.close {
+  color: #111;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
