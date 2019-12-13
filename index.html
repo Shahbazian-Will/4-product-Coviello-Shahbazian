@@ -40,33 +40,26 @@
         </nav>
 
         <!-- Navbar -->
-        <div class="w3-top">
-            <div class="w3-bar w3-theme-d2 w3-left-align">
-                <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-                <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
-                <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
-                <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
-                <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
-                <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
-                <div class="w3-dropdown-hover w3-hide-small">
-                    <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>     
-                    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-                        <a href="#" class="w3-bar-item w3-button">Link</a>
-                        <a href="#" class="w3-bar-item w3-button">Link</a>
-                        <a href="#" class="w3-bar-item w3-button">Link</a>
-                    </div>
-                </div>
-                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+        <div class="topnav">
+            <ul>
+                
+                <li><a href="#" class="w3-bar-item w3-button">Home</a></li>
+                <li><a href="#hd?" class="w3-bar-item w3-button">What is HD?</a></li>
+                <li><a href="#help" class="w3-bar-item w3-button">How can I Help?</a></li>
+                <li><a href="#pricing" class="w3-bar-item w3-button">Donations</a></li>
+                <li><a href="#contact" class="w3-bar-item w3-button">Contact</a></li>
+                
+                
+            </ul>
             </div>
-
-            <!-- Navbar on small screens -->
-            <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-                <a href="#team" class="w3-bar-item w3-button">Team</a>
-                <a href="#work" class="w3-bar-item w3-button">Work</a>
-                <a href="#pricing" class="w3-bar-item w3-button">Price</a>
-                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-                <a href="#" class="w3-bar-item w3-button">Search</a>
-            </div>
+        
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+            <a href="#team" class="w3-bar-item w3-button">Team</a>
+            <a href="#work" class="w3-bar-item w3-button">Work</a>
+            <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            <a href="#" class="w3-bar-item w3-button">Search</a>
         </div>
 
         <!-- Image Header -->
@@ -104,14 +97,12 @@
             <div class="w3-row"><br>
 
                 <div class="w3-half">
-                    <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
                     <h3>Amelia Coviello</h3>
                     <p>Test</p>
                 </div>
 
 
                 <div class="w3-half">
-                    <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
                     <h3>Will Shahbazian</h3>
                     <p>Test</p>
                 </div>
@@ -147,34 +138,6 @@
                 </div>
             </div>
 
-            <div class="w3-quarter">
-                <div class="w3-card w3-white">
-                    <img src="/img/" alt="Insert image 2" style="width:100%">
-                    <div class="w3-container">
-                        <h3>Customer 2</h3>
-                        <h4>Trade</h4>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3-quarter">
-                <div class="w3-card w3-white">
-                    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
-                    <div class="w3-container">
-                        <h3>Customer 3</h3>
-                        <h4>Trade</h4>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                    </div>
-                </div>
-            </div>
-
             <!-- Image Header -->
             <div class="w3-display-container w3-animate-opacity">
                 <img src="/img/img.jpg" alt="logo" style="width:100%;min-height:350px;max-height:600px;">
@@ -199,6 +162,19 @@
                     <h1 class="section-title">What is Huntington's Disease?</h1>
                     <p>Huntington’s Disease is an inherited genetic disorder that causes nerve cells in the brain to degenerate. The child of an affected parent will have a 50% chance of inheriting the disease due to the gene that causes it being dominant. This leads to a person losing mental and physical strength, causing problems with moving and thinking. Symptoms usually appear between ages 30-40 years.
                     </p>
+                    
+                    <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-left-align">
+                        <h5 style="padding-left: 60px;">Huntington's Disease Video</h5></button>
+                    <div id="Demo1" class="w3-container w3-hide">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DU_xkl-DO-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </section>
             </main>
 
@@ -332,6 +308,17 @@
         </footer>
 
         <script>
+            
+            //accordian
+            function myFunction(id) {
+                var x = document.getElementById(id);
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+            
             // Script for side navigation
             function w3_open() {
                 var x = document.getElementById("mySidebar");
